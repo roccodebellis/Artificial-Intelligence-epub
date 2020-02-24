@@ -1,10 +1,14 @@
 About
 =====
 Scripts included in this project will allow you to create `epub <http://en.wikipedia.org/wiki/EPUB>`_ version of the `Artificial
-Intelligence <strong>2nd edition</strong> - foundations of computational agents <http://www.cs.ubc.ca/~poole/aibook/html/ArtInt.html>`_ website.
+Intelligence **2nd edition** - foundations of computational agents <http://www.cs.ubc.ca/~poole/aibook/html/ArtInt.html>`_ website.
 
 Thanks to [Bystroushaak](https://github.com/Bystroushaak) 🤗
 
+
+------------
++ Please update setup tools pip install -U setuptools
+------------
 Requirements
 ------------
 This script was tested under `Linux Mint <http://www.linuxmint.com/>`_ 17, which is based on Ubuntu 14.04.
