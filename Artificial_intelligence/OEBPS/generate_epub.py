@@ -139,7 +139,7 @@ class Text(Content):
         content = super(Text, self).get_content()
 
         dom = dhtmlparser.parseString(content)
-        main = dom.find("div", {"class": "ltx_page_main"})
+        main = dom.find("div", {"class": "ltx_page_content"})
 
         self.title = dom.find("title")[0].getContent()
         self.title = self.title.split("--")[-1].strip()
