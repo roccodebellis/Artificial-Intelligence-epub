@@ -17,9 +17,9 @@ import epub
 
 
 # Configuration ===============================================================
-BASE_URL = "http://www.cs.ubc.ca/~poole/aibook/html/"
-TOC_URL = "http://www.cs.ubc.ca/~poole/aibook/html/ArtInt.html"
-COVER_URL = "https://raw.githubusercontent.com/Bystroushaak/Artificial-Intelligence-epub/master/9780521519007.jpg"
+BASE_URL = "https://artint.info/2e/html/"
+TOC_URL = "https://artint.info/2e/html/ArtInt2e.html"
+COVER_URL = "https://assets.cambridge.org/97811071/95394/cover/9781107195394.jpg"
 IMAGES = "images"
 COVER_FN = "book_cover.xhtml"
 
@@ -28,9 +28,9 @@ COVER_FN = "book_cover.xhtml"
 DOWNER = httpkie.Downloader()
 TOC_FN = "toc.ncx"  # don't change this
 CONTENT_FN = "content.opf"  # don't change this
-CONTENT_TEMPLATE = """<?xml version="1.0" encoding="UTF-8"?>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<body>
+CONTENT_TEMPLATE = """<!DOCTYPE html><html prefix="dcterms: http://purl.org/dc/terms/">
+<head>
+<body
 %s
 </body>
 </html>"""
@@ -138,7 +138,7 @@ class Text(Content):
         content = super(Text, self).get_content()
 
         dom = dhtmlparser.parseString(content)
-        main = dom.find("div", {"id": "main"})
+        main = dom.find("div", {"class": "ltx_page_main"})
 
         self.title = dom.find("title")[0].getContent()
         self.title = self.title.split("--")[-1].strip()
