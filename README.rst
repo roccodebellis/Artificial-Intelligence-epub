@@ -7,9 +7,12 @@ Thanks to [Bystroushaak](www.github.com/Bystroushaak).
 🤗
 
 
-------------
-Note: Please update setup tools `pip install -U setuptools`
-------------
+NOTE: Please update setup tools::
+
+    pip install -U setuptools
+
+
+
 Requirements
 ------------
 This script was tested under `Linux Mint <http://www.linuxmint.com/>`_ 17, which is based on Ubuntu 14.04.
