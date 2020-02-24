@@ -8,7 +8,7 @@ Thanks to [Bystroushaak](www.github.com/Bystroushaak).
 
 
 ------------
-+ Please update setup tools pip install -U setuptools
+Note: Please update setup tools `pip install -U setuptools`
 ------------
 Requirements
 ------------
