@@ -5,7 +5,7 @@
 #
 # Imports =====================================================================
 import sys
-import sys.setrecursionlimit
+from sys import setrecursionlimit
 import os
 import os.path
 import urllib2  # for HTTPError
