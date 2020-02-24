@@ -4,6 +4,7 @@
 # Interpreter version: python 2.7
 #
 # Imports =====================================================================
+import sys
 import os
 import os.path
 import urllib2  # for HTTPError
@@ -14,8 +15,6 @@ import httpkie
 import dhtmlparser
 
 import epub
-import sys
-from sys import setrecursionlimit
 
 # Configuration ===============================================================
 BASE_URL = "https://artint.info/2e/html/"
