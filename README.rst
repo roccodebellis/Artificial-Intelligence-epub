@@ -1,7 +1,9 @@
 About
 =====
 Scripts included in this project will allow you to create `epub <http://en.wikipedia.org/wiki/EPUB>`_ version of the `Artificial
-Intelligence - foundations of computational agents <http://www.cs.ubc.ca/~poole/aibook/html/ArtInt.html>`_ website.
+Intelligence <strong>2nd edition</strong> - foundations of computational agents <http://www.cs.ubc.ca/~poole/aibook/html/ArtInt.html>`_ website.
+
+Thanks to [Bystroushaak](https://github.com/Bystroushaak) 🤗
 
 Requirements
 ------------
