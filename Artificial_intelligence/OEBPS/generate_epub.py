@@ -14,7 +14,8 @@ import httpkie
 import dhtmlparser
 
 import epub
-import sys.setrecursionlimit
+import sys
+from sys import setrecursionlimit
 
 # Configuration ===============================================================
 BASE_URL = "https://artint.info/2e/html/"
