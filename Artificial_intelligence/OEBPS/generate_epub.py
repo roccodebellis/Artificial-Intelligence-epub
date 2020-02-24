@@ -14,7 +14,7 @@ import httpkie
 import dhtmlparser
 
 import epub
-
+import sys.setrecursionlimit
 
 # Configuration ===============================================================
 BASE_URL = "https://artint.info/2e/html/"
@@ -164,9 +164,6 @@ class TOC(Text):
 
 
 # Main program ================================================================
-import sys
-from sys import setrecursionlimit
-
 if __name__ == '__main__':
     sys.setrecursionlimit(1500)
     if not os.path.exists(IMAGES):
