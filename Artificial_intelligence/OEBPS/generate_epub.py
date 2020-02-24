@@ -164,6 +164,7 @@ class TOC(Text):
 
 
 # Main program ================================================================
+import sys
 from sys import setrecursionlimit
 
 if __name__ == '__main__':
