@@ -166,7 +166,7 @@ class TOC(Text):
 
 # Main program ================================================================
 if __name__ == '__main__':
-    sys.setrecursionlimit(1500)
+    sys.setrecursionlimit(2999)
     if not os.path.exists(IMAGES):
         os.mkdir(IMAGES)
 
