@@ -164,7 +164,10 @@ class TOC(Text):
 
 
 # Main program ================================================================
+from sys import setrecursionlimit
+
 if __name__ == '__main__':
+    sys.setrecursionlimit(1500)
     if not os.path.exists(IMAGES):
         os.mkdir(IMAGES)
 
