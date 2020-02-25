@@ -6,13 +6,6 @@ Intelligence **2nd edition** - foundations of computational agents <http://www.c
 Thanks to [Bystroushaak](www.github.com/Bystroushaak). 
 🤗
 
-
-NOTE: Please update setup tools::
-
-    pip install -U setuptools
-
-
-
 Requirements
 ------------
 This script was tested under `Linux Mint <http://www.linuxmint.com/>`_ 17, which is based on Ubuntu 14.04.
@@ -29,6 +22,10 @@ and::
 
 You can also run the ``create_book.sh`` script and install all packages interactively.
 
+Please update setup tools::
+
+    pip install -U setuptools
+
 How to
 ------
 To create the `epub` file, open project directory in your terminal and run::
@@ -40,7 +37,3 @@ This command will download all informations from book's website and create `epub
 Note
 ----
 This repository doesn't contain any content published at the book's website. Book is published under `Creative Commons Attribution-Noncommercial-No Derivative Works 2.5 Canada License <http://creativecommons.org/licenses/by-nc-nd/2.5/ca/>`_, which allows you to *"Share — copy and redistribute the material in any medium or format"*, which is exactly what this convertor does.
-
-Note 2
-------
-ISBN is from .pdf version of the book, which you can find if you gonna try hard enough. It is probably wrong, but better than nothing.
